@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/apple-touch-icon.png" type="image/x-icon">
+    <title>Codar Studio</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <h1 class="logo">Codar Studio</h1>
+        <ul class="nav-menu">
+          <a href="#">Ínicio</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#">Contato</a>
+        </ul>
+        <button class="btn-login">Login</button>
+      </div>
+    </header>
+
+    <section class="sessao-01">
+      <div class="img-wrapper">
+        <img src="assets/video_call.png" alt="imagem" />
+      </div>
+      <div class="texto-01">
+        <h3>Deixe nós ajudar a você crescer...</h3>
+        <h1>Precisa de um website ?</h1>
+        <a href="#orcamento">
+          <button class="btn-simulador">Simular Orçamento</button>
+        </a>
+      </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+        <div class="list-servicos">
+          <h1 class="titulo-list">Nossos serviços:</h1>
+          <ul class="list">
+            <li>Web Site</li>
+            <li>Blog</li>
+            <li>Landing Page</li>
+            <li>E-commerce/Loja Virtual</li>
+            <li>Sistema de Delivery</li>
+            <li>Domínio Personalizado</li>
+            <li>Configuração de Hospedagem</li>
+          </ul>
+          <div class="contato">
+            <h3>Deixe nos estrar em contato...</h3>
+            <div class="btn-input">
+            <input type="text" placeholder="Digite seu e-mail">
+            <button class="btn-contato">Enviar</button>
+            </div>
+          </div>
+        </div>
+      <div class="img-servicos">
+        <img src="assets/coding_.png" alt="Img" />
+      </div>
+    </section>
+
+    <section class="sessao-orcamento" id="orcamento">
+      <div class="orcamento-wrapper">
+        <h1>Faça um Orçamento!</h1>
+        <form class="formulario">
+          <label class="qtd-paginas">Quantidade de paginas:</label>
+          <input type="number" min="1" name="qtd" id="qtd">
+          <label for="js">Devera conter JavaScript ?</label>
+          <input type="checkbox" name="js" id="js">
+          <label>Layout</label>
+          <div class="group-layout">
+            <div>
+              <input type="radio" name="layout" id="layout-sim">
+              <label for="layout-sim">Preciso de um layout ?</label>
+            </div>
+            <div>
+              <input type="radio" name="layout" id="layout-nao">
+              <label for="layout-nao">Já tenho um layout !</label>
+            </div>
+          </div>
+            <label for="prazo" class="prazo">Prazo</label>
+            <input type="range" name="prazo" id="prazo" min="1" max="10">
+            <label id="preco">Valor estimado R$ 0,00</label>
+            <button class="btn-orcamento" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <footer class="rodape">
+      <div class="logo-rodape">
+        <h2 class="titulo-rodape">Sobre</h2>
+        <p class="texto-rodape">
+          Apaixonados pelo que fazemos, 
+          Trabalhamos para oferecer 
+          soluções incriveís para nossos clientes.
+        </p>
+      </div>
+      <p class="direitos">Copyright &copy; 2022 - Todos direitos reservados</p>
+      <div class="rodape-contato">
+        <h2>Contato</h2>
+        <p>E-mail: developerdionatan@gmail.com</p>
+        <p>Telefone: (51) 99483-0196</p>
+      </div>
+    </footer>
+  </body>
+  <script src="js/scripts.js"></script>
+</html>

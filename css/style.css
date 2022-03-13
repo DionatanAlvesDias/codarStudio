@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    background-color: #f3f3f3;
+}
+
+.nav-menu a{
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.nav-menu{
+   display: flex;
+   flex-direction: row;
+   gap: 5rem; 
+   margin-top: 1rem;
+}
+
+.logo {
+    color: #6E3434;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-menu a {
+    color: #b21f1f;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.btn-login {
+    width: 8rem;
+    height: 3rem;
+    border: 1px solid #b21f1f;
+    border-radius: 10px;
+    background-color: #fdbb2d;
+    color: #b21f1f;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.btn-login:hover {
+    cursor: pointer;
+}
+ 
+.sessao-01 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5.5rem;
+    justify-content: space-around;
+    
+}
+.img-wrapper img{
+    object-fit: cover;
+    height: 400px;
+    width: 500px;
+    max-width: 100%;
+    max-height: auto;
+}
+.texto-01 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-right: 2rem;
+    margin-top: 5rem;
+}
+
+.texto-01 h3{
+    color: #b21f1f;
+    font-size: 1.5rem;
+}
+.texto-01 h1 {
+    color: #6E3434;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.btn-simulador {
+    color: #b21f1f;
+    font-size: 1.5rem;
+    border: 1px solid #b21f1f;
+    height: 3rem;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fdbb2d;
+}
+.btn-simulador:hover {
+    cursor: pointer;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15rem;
+    margin-bottom: 5.5rem;
+    padding-left: 5rem;
+    justify-content: space-around;
+}
+
+.list-servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo-list {
+    color: #6E3434;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.1rem;
+}
+
+.list-servicos ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-servicos img{
+    object-fit: cover;
+    height: 400px;
+    width: 500px;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.list {
+    color: #b21f1f;
+    font-size: 1.5rem;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row; 
+}
+
+.contato h3 {
+    color: #6E3434;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-right: 2.5rem;
+}
+
+.btn-input {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.contato input{
+    padding-left: 2rem;
+    border: none;
+    border-bottom: 1px solid rgb(133, 110, 110);
+    border-radius: 5px;
+}
+
+.btn-contato {
+    color: #b21f1f;
+    font-size: 1rem;
+    border: 1px solid #b21f1f;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #fdbb2d;
+    padding: 0 1.5rem; 
+}
+
+.sessao-orcamento {
+    width: 100%;
+    height: 100vh; /* VH = pega toda altura do dispositivo */
+    background: url("../img/bg-orcamento.jpg");
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orcamento-wrapper {
+    width: 60%;
+    height: 70%;
+    background-color: #ffffff99;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.sessao-orcamento h1 {
+    position: absolute;
+    top: -2.5rem;
+    left: 2rem;
+    background: #ad5389;  /* fallback for old browsers */
+    padding: 0 3rem;
+    color: #eee;
+    font-size: 3rem;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.sessao-orcamento form{
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.sessao-orcamento .prazo{
+    grid-column: 1;
+}
+
+.sessao-orcamento label {
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sessao-orcamento input[type="number"]{
+    width: 4.5rem;
+    font-size: 1.5rem;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 0.8rem;
+}
+
+.btn-orcamento {
+    text-transform: uppercase;
+    width: 100%;
+    height: 2.5rem;
+    background: #ad5389;  /* fallback for old browsers */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #eee;
+    border-radius: .5rem;
+    box-shadow: 0  .1rem  .8rem rgba(0, 0, 0, 0.4);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #803763;
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.logo-rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.titulo-rodape {
+  font-size: 1.5rem;
+    
+}
+.texto-rodape {
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.direitos{
+    display: flex;
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+}
+
+.rodape-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
